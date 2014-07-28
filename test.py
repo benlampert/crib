@@ -1,5 +1,6 @@
 import crib
 
+<<<<<<< HEAD
 def allUnique(deck):
     seen = set()
     return not any(i in seen or seen.add(i) for i in deck)
@@ -13,5 +14,9 @@ sDeck = crib.shuffleDeck(deck)
 print allUnique(sDeck)
 
 #print allUnique(shuffled_deck)
+=======
+deck = crib.createDeck()
+print crib.shuffleDeck(deck)
+
 
 
