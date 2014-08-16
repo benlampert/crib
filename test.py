@@ -12,4 +12,4 @@ print allUnique(deck)
 sDeck = crib.shuffleDeck(deck)
 print sDeck
 print allUnique(sDeck)
-
+print 'test'
