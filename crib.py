@@ -19,3 +19,14 @@ def shuffleDeck(deck, sDeck=[]):
 		del deck[value]
 	return sDeck
 	
+def dealCards(deck, numCards):
+#numCards becomes the iterator
+#create two hands that will be returned with the cards
+#return the cards
+	handA = []
+	handB = []
+
+	for i in range(numCards):
+		handA.append( deck.pop())
+		handB.append( deck.pop())	
+	return (handA, handB, deck)
