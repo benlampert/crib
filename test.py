@@ -14,6 +14,10 @@ deck = crib.deck
 sDeck = crib.shuffleDeck(deck)
 print 'this is a complete deck of cards'
 print sDeck
+<<<<<<< HEAD
 print 'there are %s cards in the deck' % len(sDeck)
 print 'are the cards in the deck unique? %s ' % allUnique(sDeck)
 
+=======
+print allUnique(sDeck)
+>>>>>>> fabb80236744a745d9a2a4f3b774259fa78caaa2
