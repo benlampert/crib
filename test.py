@@ -8,6 +8,7 @@ def allUnique(deck):
 
 #create a deck of cards
 deck = crib.deck
+#shuffle the deck of cards
 sDeck = crib.shuffleDeck(deck)
 
 #print 'this is a complete deck of cards'

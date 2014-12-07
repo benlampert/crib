@@ -30,3 +30,22 @@ def dealCards(deck, numCards):
 		handA.append( deck.pop())
 		handB.append( deck.pop())	
 	return (handA, handB, deck)
+
+def pickCrib(handA, handB):
+#interact to pick two cards and delete those from the hand list return the two hands
+	thecrib = []
+	print handA
+	firstCard = input("A pick first card")
+	thecrib.append(handA[firstCard])
+	del handA[firstCard]
+	print handA
+	secondCard = input("A pick second card")
+	thecrib.append(handA[secondCard])
+	del handA[secondCard]
+	thecrib.append(handB[firstCard])
+	del handB[firstCard]
+	thecrib.append(handB[secondCard])
+	del handB[secondCard]
+	
+	return [handA, handB, thecrib]
+
